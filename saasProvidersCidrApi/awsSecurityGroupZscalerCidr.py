@@ -7,7 +7,6 @@ ec2 = boto3.client('ec2')
 seperator = "\n"
 count = 0
 ipranges = ""
-
 vpc_id = "vpc-########"
 
 def create_sg(count):
@@ -19,7 +18,6 @@ def create_sg(count):
             VpcId=vpc_id)
         security_group_id = response['GroupId']
         print('Security Group Created %s in vpc %s.' % (security_group_id, vpc_id))
-
         return security_group_id
     except ClientError as e:
         print(e)
