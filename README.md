@@ -1,7 +1,6 @@
 # library-pythonCoding
 Python  classes , functions , notes and ideas
 
-Sure! Here's a Markdown formatted table with Python's important syntax elements:
 
 | Syntax Element       | Explanation                                          | Example Code Snippet                                          |
 |----------------------|------------------------------------------------------|---------------------------------------------------------------|
