@@ -1,1 +1,17 @@
 
+0) Scratchpad
+1) Python history and interesting tidbits
+2) Python development environment
+
+
+###############################################
+2) Python development environment
+###############################################
+
+# Create a new python virtual environment and activate it to work in it
+python -m myNewVenv
+source myNewVenv/bin/activate
+
+pip list
+python -m pip list
+python -m pip install pip==22.3.1
