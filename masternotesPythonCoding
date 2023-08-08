@@ -3,6 +3,8 @@
 1) Python history and interesting tidbits
 2) Python development environment
 3) Python variables and conventions
+4) Python Fundamentals
+    4.1) Embedding variables in strings
 998) Python characteristics
 
 
@@ -15,6 +17,8 @@ python -m pip list
 python -m pip install pip==22.3.1
 python -m pip install -r ./requirements.txt
 python -m IPython   ---> Use IPython as interpretor good for learning and testing code note its case-sensitive
+dir(some_var)  ---> when calling dir function it will display __ magic mathods and standard methods available on the var type
+type(some_var) ---> Python shows the type of variable eg. string , int note Python is a dynamically vs static typed language
 
 # Create a new python virtual environment and activate it to work in it
 python -m myNewVenv
@@ -37,6 +41,20 @@ PascalCase ---> Convention used for python class naming
 SNAKE_CASE_UPPER ---> Used for constants
 self ---> Used to referance and object in class methods/functions
 _ ---> A single under-score is a throw-away variable
+
+
+###############################################
+4) Python Fundamentals
+###############################################
+
+=====================================
+4.1) Embedding variables in strings
+=====================================
+
+my_var = "Hello World"
+"This is some string: %s" % my_var
+"This is some string: %s %s" % (my_var, "Another substituted string")
+
 
 ###############################################
 998) Python characteristics
