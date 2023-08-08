@@ -5,6 +5,8 @@
 3) Python variables and conventions
 4) Python Fundamentals
     4.1) Embedding variables in strings
+    4.2) Python Data Types
+         4.2.1) Strings
 998) Python characteristics
 
 
@@ -51,9 +53,34 @@ _ ---> A single under-score is a throw-away variable
 4.1) Embedding variables in strings
 =====================================
 
+# Original method using %s substitution characters
 my_var = "Hello World"
 "This is some string: %s" % my_var
 "This is some string: %s %s" % (my_var, "Another substituted string")
+
+# Another legacy method using the .format method
+my_var = "Hello World"
+"This is some string: {} {}".format(my_var, "helloAgain")
+
+# Current method of using F Strings
+my_var = "Hello World"
+my_var2 = "Hello Again"
+f"This is some string: {my_var} helloAgain"
+f"This is a 2 var string: {my_var} {my_var2}"
+
+=====================================
+4.2) Python Data Types
+=====================================
+
+-------------------------------------
+4.2.1) Strings
+-------------------------------------
+
+Python strings are "immutable" which means they cannot be changed 
+after they are created (Java strings also use this immutable style).
+Since strings can't be changed, we construct *new* strings as we go to
+represent computed values. So for example the expression ('hello' + 'there')
+takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
 
 
 ###############################################
