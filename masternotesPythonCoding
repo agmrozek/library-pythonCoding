@@ -2,16 +2,32 @@
 0) Scratchpad
 1) Python history and interesting tidbits
 2) Python development environment
+3) Python variables and conventions
 
 
 ###############################################
 2) Python development environment
 ###############################################
 
+pip list
+python -m pip list
+python -m pip install pip==22.3.1
+python -m pip install -r ./requirements.txt
+python -m IPython   ---> Use IPython as interpretor good for learning and testing code note its case-sensitive
+
 # Create a new python virtual environment and activate it to work in it
 python -m myNewVenv
 source myNewVenv/bin/activate
 
-pip list
-python -m pip list
-python -m pip install pip==22.3.1
+# When using iPython for repl you can disable auto-complete via the following
+cat ~/.ipython/profile_default/ipython_config.py
+c = get_config()
+c.TerminalInteractiveShell.autosuggestions_provider = None
+
+###############################################
+3) Python variables and conventions
+###############################################
+
+__name__ ---> Special magic methods that lead with double underscore aka dunder or magic methods
+_name ---> Convention for private special variables that is saying don't use unless you really know why its a private declaration
+my_variable_name = "my variable string"  ---> Normal convention for variables is word seperation via underscore charachter
