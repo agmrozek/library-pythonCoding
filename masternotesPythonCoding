@@ -3,6 +3,7 @@
 1) Python history and interesting tidbits
 2) Python development environment
 3) Python variables and conventions
+998) Python characteristics
 
 
 ###############################################
@@ -31,3 +32,16 @@ c.TerminalInteractiveShell.autosuggestions_provider = None
 __name__ ---> Special magic methods that lead with double underscore aka dunder or magic methods
 _name ---> Convention for private special variables that is saying don't use unless you really know why its a private declaration
 my_variable_name = "my variable string"  ---> Normal convention for variables is word seperation via underscore charachter
+snake_case_lower ---> Used for variable names and functions can use numbers just not first charachter
+PascalCase ---> Convention used for python class naming
+SNAKE_CASE_UPPER ---> Used for constants
+self ---> Used to referance and object in class methods/functions
+_ ---> A single under-score is a throw-away variable
+
+###############################################
+998) Python characteristics
+###############################################
+
+Indentation matters
+Use spaces not tabs
+PEP8 is Python's convention framework
