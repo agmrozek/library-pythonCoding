@@ -1,19 +1,32 @@
-Basic syntax: Start with learning the basic syntax of Python. This includes understanding how to declare variables, use conditionals (if-else statements), loops, functions, and data types like strings, numbers, lists, and dictionaries.
+Basic syntax: Start with learning the basic syntax of Python. 
+This includes understanding how to declare variables, use conditionals 
+(if-else statements), loops, functions, and data types like strings, 
+numbers, lists, and dictionaries.
 
-Comments: Learn how to write comments in your code. Comments are lines of text that are not executed by the interpreter but help to explain what the code is doing.
+Comments: Learn how to write comments in your code. Comments are lines 
+of text that are not executed by the interpreter but help to explain what 
+the code is doing.
 
-Input and output: Learn how to take input from the user using the input() function and display output using the print() function.
+Input and output: Learn how to take input from the user using the input() 
+function and display output using the print() function.
 
-Control flow: Understand how to control the flow of your program using control structures like if-else statements, loops, and conditional expressions.
+Control flow: Understand how to control the flow of your program using 
+control structures like if-else statements, loops, and conditional expressions.
 
-Functions: Learn how to create and use functions. Functions are reusable blocks of code that perform a specific task.
+Functions: Learn how to create and use functions. Functions are reusable 
+blocks of code that perform a specific task.
 
-Libraries: Explore the vast range of Python libraries available for various purposes, such as NumPy, Pandas, Matplotlib, Scikit-learn, and TensorFlow.
+Libraries: Explore the vast range of Python libraries available for various 
+purposes, such as NumPy, Pandas, Matplotlib, Scikit-learn, and TensorFlow.
 
-File handling: Learn how to read from and write to files using the file handling functions in Python.
+File handling: Learn how to read from and write to files using the file 
+handling functions in Python.
 
-Exception handling: Learn how to handle errors and exceptions in your program using try-except blocks.
+Exception handling: Learn how to handle errors and exceptions in 
+your program using try-except blocks.
 
-Classes and objects: Learn about object-oriented programming and how to define classes and create objects in Python.
+Classes and objects: Learn about object-oriented programming and how 
+to define classes and create objects in Python.
 
-Debugging: Learn how to debug your code using debugging tools like print statements, Python debugger (pdb), or using a graphical debugger like PyCharm.
+Debugging: Learn how to debug your code using debugging tools like print 
+statements, Python debugger (pdb), or using a graphical debugger like PyCharm.
