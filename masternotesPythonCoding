@@ -72,8 +72,9 @@ f"This is a 2 var string: {my_var} {my_var2}"
 4.2) Python Data Types
 =====================================
 
-Strings are immutable
-Lists are mutable
+Strings -->  immutable
+Lists --> mutable
+tuple --> immutable
 
 -------------------------------------
 4.2.1) Strings
