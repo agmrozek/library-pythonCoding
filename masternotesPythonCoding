@@ -85,6 +85,9 @@ Since strings can't be changed, we construct *new* strings as we go to
 represent computed values. So for example the expression ('hello' + 'there')
 takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
 
+A String in python if concatonating with , a space is put in between 
+elements if + they are crammed together
+
 
 ###############################################
 998) Python characteristics
@@ -94,8 +97,7 @@ Indentation matters
 Use spaces not tabs
 PEP8 is Python's convention framework
 
-A String in python if concatonating with , a space is put in between 
-elements if + they are crammed together
+Python has a garbage collector
 
 Python code interpretation runs in the "moment" each line it evaluates and 
 runs , vs a compiled language. Python only checks a line when it runs the line
