@@ -53,7 +53,7 @@ _ ---> A single under-score is a throw-away variable
 4.1) Embedding variables in strings
 =====================================
 
-# Original method using %s substitution characters
+# Format string - Original method using %s substitution characters
 my_var = "Hello World"
 "This is some string: %s" % my_var
 "This is some string: %s %s" % (my_var, "Another substituted string")
@@ -71,6 +71,9 @@ f"This is a 2 var string: {my_var} {my_var2}"
 =====================================
 4.2) Python Data Types
 =====================================
+
+Strings are immutable
+Lists are mutable
 
 -------------------------------------
 4.2.1) Strings
@@ -90,3 +93,14 @@ takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
 Indentation matters
 Use spaces not tabs
 PEP8 is Python's convention framework
+
+A String in python if concatonating with , a space is put in between 
+elements if + they are crammed together
+
+Python code interpretation runs in the "moment" each line it evaluates and 
+runs , vs a compiled language. Python only checks a line when it runs the line
+so if I have symantic errors eg. in an else segment of a statement but else
+never gets hit python doesn't care and will run languages such as C or java will not
+it checks all lines during compilation and linking before code runs.
+
+
