@@ -4,6 +4,7 @@
 2) Python development environment
 3) Python variables and conventions
 4) Python Fundamentals
+    4.0) Fundamental notes
     4.1) Embedding variables in strings
     4.2) Python Data Types
          4.2.1) Strings
@@ -48,6 +49,20 @@ _ ---> A single under-score is a throw-away variable
 ###############################################
 4) Python Fundamentals
 ###############################################
+
+=====================================
+4.0) Fundamental Notes
+=====================================
+
+-------------------------------------
+4.0.1) Variables
+-------------------------------------
+
+A variable name can contain letters, numbers, or underscores;
+A variable name cannot start with a number;
+Variables are case-sensitive, i.e., Var and var are two different variables;
+No special characters other than underscore _ are allowed;
+You can't use reserved keywords as variable names (such as if, while, for, try, ...).
 
 =====================================
 4.1) Embedding variables in strings
