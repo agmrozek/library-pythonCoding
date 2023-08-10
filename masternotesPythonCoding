@@ -8,6 +8,9 @@
     4.1) Embedding variables in strings
     4.2) Python Data Types
          4.2.1) Strings
+    4.3) Python Data Structures
+         4.3.0) Data structure fundamentals
+         4.3.1) Python Dictionaries aka hashtables
 998) Python characteristics
 
 
@@ -104,6 +107,22 @@ takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
 A String in python if concatonating with , a space is put in between 
 elements if + they are crammed together
 
+###############################################
+4.3) Python Data Structures
+###############################################
+
+=====================================
+4.3.0) Data structure fundamentals
+=====================================
+
+
+=====================================
+4.3.1) Python Dictionaries aka hashtables
+=====================================
+
+myDict = {'a' : 'alpha' , 'g' : 'gamma' , 'o' : 'omega' }
+for k in sorted(myDict.keys()):
+  print('key' , k , '-->' , myDict[k])
 
 ###############################################
 998) Python characteristics
