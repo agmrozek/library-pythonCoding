@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import ipwhois
 
 def extract_bgp_asn(file_path):
