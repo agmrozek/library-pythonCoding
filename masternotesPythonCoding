@@ -11,8 +11,15 @@
     4.3) Python Data Structures
          4.3.0) Data structure fundamentals
          4.3.1) Python Dictionaries aka hashtables
+         4.3.2) Python Tuple
+5) Python Patterns
+         5.0) etc
+         5.1) Context managers
+         5.2) Conditionals if/else/elif
+         5.3) Iteration for / while loops
+         5.4) List comprehensions
+         5.5) Generator expressions
 998) Python characteristics
-
 
 ###############################################
 2) Python development environment
@@ -130,6 +137,63 @@ hashtable
 myDict = {'a' : 'alpha' , 'g' : 'gamma' , 'o' : 'omega' }
 for k in sorted(myDict.keys()):
   print('key' , k , '-->' , myDict[k])
+
+
+=====================================
+4.3.2) Python Tuple
+=====================================
+
+= Tuple is an immutable list
+
+= You cannot pop , extend or append to the tuple data structure
+
+= Both the below vars are tuples
+
+ip_addr = ("10.1.1.1", "10.1.1.2") - standard notation
+ip_addr = "10.1.1.1", "10.1.1.2" - NOT 2 strings the , creates a tuple
+
+###############################################
+5) Python Patterns
+###############################################
+
+=====================================
+5.1) Context Managers
+=====================================
+
+= A common pattern is to open something , write to it,
+close it eg. Files , database connection , network connection
+
+# Standard method of opening a file without context manager
+each operation is done as a manual method against the object
+
+my_file = open("somefile.txt" , mode='w')
+data = my_file.read()
+my_file.close()
+
+# Performing the same with the context manager pattern
+
+with open("somefile.txt", mode='w') as f:
+    data = f.read()
+
+
+=====================================
+5.2) Conditionals if/else/elif
+=====================================
+
+
+=====================================
+5.3) Iteration for / while loops
+=====================================
+
+=====================================
+5.4) List comprehensions
+=====================================
+
+
+=====================================
+5.5) Generator expressions
+=====================================
+
 
 ###############################################
 998) Python characteristics
