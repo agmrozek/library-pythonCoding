@@ -120,6 +120,13 @@ elements if + they are crammed together
 4.3.1) Python Dictionaries aka hashtables
 =====================================
 
+The dictionaray aka hashtable data structure
+is useful for taking in-coherent data and helping
+add structure to it eg. Apache log file I want to
+organize and see all http 200 counts from a given IP
+Google search fundamentally is a giant distributed
+hashtable
+
 myDict = {'a' : 'alpha' , 'g' : 'gamma' , 'o' : 'omega' }
 for k in sorted(myDict.keys()):
   print('key' , k , '-->' , myDict[k])
