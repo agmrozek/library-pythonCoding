@@ -180,6 +180,8 @@ with open("somefile.txt", mode='w') as f:
 5.2) Conditionals if/else/elif
 =====================================
 
+= How do we make decisions in programming ans. Conditionals
+
 
 =====================================
 5.3) Iteration for / while loops
